@@ -26,12 +26,19 @@ Computador com acesso à internet;
 </div>
 
 
-[Home aqui](file:///C:/Users/rober/OneDrive/%C3%81rea%20de%20Trabalho/Estudos/Est%C3%A1cio/receitas/home.htmll)
+## Como executar
+1. Clone o repositório: 
+```bash
+git clone [https://github.com/devropaes/receitas/tree/main/receitas]
+```
 
-[Receitas aqui](file:///C:/Users/rober/OneDrive/%C3%81rea%20de%20Trabalho/Estudos/Est%C3%A1cio/receitas/receitas.html)
+2. Abra o código no VS Code.
 
-[Cadastro aqui](file:///C:/Users/rober/OneDrive/%C3%81rea%20de%20Trabalho/Estudos/Est%C3%A1cio/receitas/cadastro.html)
+3. Click com o mouse lado esquerdo em Home.html e abra no navegador de sua preferência, e navegue nas páginas Home, Receitas e Cadastro.
 
+## Vídeo Demonstrativo
+
+Assista ao vídeo de demonstração no [YouTube](https://github.com).
 # dev
 
    ![200402_109498305798233_5479569_n](https://github.com/devropaes/numeroSecreto/assets/143963091/bab695fe-3d03-4930-9ac4-efd7d5193f4c) 
