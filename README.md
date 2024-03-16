@@ -25,7 +25,7 @@ Computador com acesso à internet;
   <img src="https://github.com/devropaes/numeroSecreto/assets/143963091/31da45d2-84c2-4909-ac58-9ec01044f9f7"width="85"px/>
 </div>
 
-[Receitas aqui](http:)
+[Receitas aqui](file:///C:/Users/rober/OneDrive/%C3%81rea%20de%20Trabalho/Estudos/Est%C3%A1cio/receitas/home.html)
 
 # dev
 
