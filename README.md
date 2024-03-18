@@ -38,7 +38,7 @@ git clone [https://github.com/devropaes/receitas/tree/main/receitas]
 
 ## Vídeo Demonstrativo
 
-Assista ao vídeo de demonstração no [YouTube](https://youtu.be/XpxKOGUpbqE).
+Assista ao vídeo de demonstração no [YouTube](https://youtu.be/YWekcAr9zgQ).
 # dev
 
    ![200402_109498305798233_5479569_n](https://github.com/devropaes/numeroSecreto/assets/143963091/bab695fe-3d03-4930-9ac4-efd7d5193f4c) 
