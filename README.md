@@ -26,17 +26,7 @@ Computador com acesso à internet;
 </div>
 
 
-## Como executar
-1. Clone o repositório: 
-```bash
-git clone [https://github.com/devropaes/receitas/tree/main/receitas]
-```
 
-2. Abra o código no VS Code.
-
-3. Click com o mouse lado esquerdo em Home.html e abra no navegador de sua preferência, e navegue nas páginas Home, Receitas e Cadastro.
-
-## Vídeo Demonstrativo
 
 Assista ao vídeo de demonstração no [YouTube](https://youtu.be/lUlshnpz5VM?si=KvdHYHl-ZuxHjLTe)
 
