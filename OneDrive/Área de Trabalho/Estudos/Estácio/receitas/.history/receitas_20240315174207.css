@@ -1,0 +1,67 @@
+
+.apresentacao__receitas__link {
+    display:contents;
+    width: 100px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center:
+}
+.receitas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:space-around;
+    max-height: 1000px;
+    overflow: auto;
+    margin-top: 20px;
+}
+.receita {
+    background-color:var(--cor-hover);
+    padding: 5px;
+    width: 300px;
+}
+.receita img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margim-top: 20px;
+}
+.receita h2 {
+    color:var(--cor-secundaria);
+}
+
+.receita h3 {
+    color:var(--cor-secundaria);
+}
+
+.receita ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: disc; /* Adiciona uma bolinha na frente de cada item da lista */
+     padding-left: 50px; /* Ajusta o recuo da lista para deixar espaço para a bolinha */
+}
+
+.receita ul li {
+    position: relative; /* Para ajustar a posição das bolinhas */
+    padding-left: 20px; /* Ajusta o recuo da lista para deixar espaço para a bolinha */
+}
+
+.receita ul li:before {
+    content: "•"; /* Adiciona uma bolinha */
+    position: absolute; /* Posiciona a bolinha */
+    left: 0; /* Alinha a bolinha à esquerda */
+    color: var(--cor-secundaria); /* Define a cor da bolinha */
+}
+
+    
+
+.receita p {
+    color:var(--cor-secundaria);
+}
+
+
+
+
+
+

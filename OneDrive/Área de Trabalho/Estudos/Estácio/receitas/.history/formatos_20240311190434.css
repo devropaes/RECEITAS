@@ -1,0 +1,112 @@
+
+body {
+    background-color:#ff7f50;
+      
+}
+
+.cabecalho{
+    font-family:"krona one",sans-serif ;
+    font-weight: 600;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabecalho__menu {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    color:#333;
+    text-decoration: none;
+  
+}
+
+
+.cabecalho__menu__link {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+    text-decoration: none;
+}
+.cabecalho__cadastro__link {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+}
+
+
+.apresentacao {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 50px;
+}
+
+.apresentacao__conteudo {
+    img: 33x32px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+    pad: 60px;
+}
+
+.apresentacao__conteudo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    pad:62px;
+    
+}
+.apresentacao__conteudo__titulo {
+    justify-items:right;
+    width: 60%;
+
+}
+
+
+.apresentacao__receitas__link {
+    align-items: center;
+    display:flex;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+        
+}
+
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    border-bottom: 2px solid #fff ;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 0%;
+    }
+    .apresentacao {
+        align-items: center;
+        padding: 5%;
+        width: auto;
+    }
+    
+}

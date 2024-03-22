@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formatos.css">
+    <link rel="stylesheet" href="receitas.css">
+    <title>Receitas</title>
+</head>
+<body>
+  <div class="page-container">
+    <header>
+        <nav>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="receitas.html" class="pagina-atual">Receitas</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+            
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="receitas-container">
+            <!-- Receita 1 -->
+            <div class="receita">
+                <h2>Arroz de Couve-flor</h2>
+                <img src="./assets/arroz.png" alt="Arroz de Couve-flor">
+                <h3>Ingredientes:</h3>
+                <ul class="lista-ingredientes">
+                    <li>Arroz</li>
+                    <li>Couve-flor</li>
+                    <li>Cebola Média</li>
+                    <li>Azeite</li>
+                </ul>
+                <h3>Modo de Preparo:</h3>
+                <p>Deixe a couve-flor picada. Adicione os ingredientes e refogue bem. Adicione sal, tampe a panela e deixe cozinhar.</p>
+            </div>
+
+            <!-- Receita 2 -->
+            <div class="receita">
+                <h2>Bolo de Café</h2>
+                <img src="./assets/bolo.png" alt="Bolo de Café">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Farinha de Trigo</li>
+                    <li>Açúcar</li>
+                    <li>Café Coado</li>
+                    <li>Chocolate em Pó</li>
+                    <li>Ovos</li>
+                </ul>
+                <h3>Modo de Preparo:</h3>
+                <p>Bata o açúcar, as gemas e o café. Adicione farinha e chocolate e mexa bem. Bata as claras e junte à mistura.</p>
+            </div>
+
+            <!-- Receita 3 -->
+            <div class="receita">
+                <h2>Coxinha de Brigadeiro</h2>
+                <img src="./assets/brigadeiro.png" alt="Coxinha de Brigadeiro">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Leite Condensado</li>
+                    <li>Chocolate em Pó</li>
+                    <li>Manteiga</li>
+                    <li>Morango</li>
+                    <li>Chocolate Granulado</li>
+                </ul>
+                <h3>Modo de Preparo:</h3>
+                <p>Junte o leite condensado, chocolate em pó e manteiga. Aqueça no fogo baixo. Envolva os morangos e passe no granulado.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy;Jurema 2024 </p> 
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+ 
+    <script>
+        $(document).ready(function() {
+            // Aplica o Select2 ao campo de seleção de estados
+            $('#estado').select2({
+                placeholder: 'Escolher...',
+                allowClear: true, // Permite a limpeza da seleção
+            });
+        });
+    </script>
+</body>
+</html>
+
+ 

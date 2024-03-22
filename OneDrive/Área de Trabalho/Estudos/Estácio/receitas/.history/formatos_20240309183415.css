@@ -1,0 +1,87 @@
+/* Reset de estilos padrão */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#ff7f50;
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    border-top: 2px solid #fff ;
+    border-right: 2px solid #fff ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.restaurant-name {
+    font-size: 24px; /* Ajusta o tamanho do nome do restaurante */
+}
+
+.cabecalho {
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho */
+    padding: 10px; /* Adiciona um espaçamento interno ao cabeçalho */
+}
+
+.cabecalho__menu__link {
+    color: #fff; /* Define a cor dos links do menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.apresentacao {
+    padding: 20px; /* Adiciona espaçamento interno ao conteúdo principal */
+}
+
+.apresentacao__conteudo__titulo {
+    text-align: center; /* Centraliza o conteúdo do título */
+    margin-top: 20px; /* Adiciona um espaço superior ao título */
+}
+
+.apresentacao__conteudo__titulo img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+.apresentacao__receitas__link {
+    align-items: center;
+    display:flex;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+        
+}
+
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    border-bottom: 2px solid #fff ;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 0%;
+    }
+    .apresentacao {
+        align-items: center;
+        padding: 5%;
+        width: auto;
+    }
+    .trabalhar.png {
+        font-size: small;
+    }
+}
+
+

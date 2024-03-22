@@ -1,0 +1,90 @@
+img {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    display: flexbox;
+          
+}
+.navlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Alterado de justify-content-between para space-between */
+  }
+  
+  .navlist li {
+    margin: 0;
+  }
+  
+  .navlist a {
+    text-decoration: none;
+    color: #000; /* Adicione a cor desejada para os links */
+  }
+
+
+body {
+    background-color:#ff7f50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+    
+header {
+    text-decoration: none;
+}
+
+.apresentacao {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 1200px;
+}
+
+.apresentacao__conteudo {
+    img: 198 x 384px;
+    font-weight: 900;
+    max-width: 900px;
+    margin: 0 auto;
+    pad: 60px;
+    padding: 900px
+}
+
+.apresentacao__conteudo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    pad:62px;
+    
+}
+.apresentacao__conteudo__titulo {
+    justify-items:right;
+    width: 60%;
+
+}
+
+
+.apresentacao__receitas__link {
+    align-items: center;
+    display:flex;
+    gap: 100px;
+    width: 100%;
+   
+        
+}
+
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    border-bottom: #fff;
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0%;
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+   
+}

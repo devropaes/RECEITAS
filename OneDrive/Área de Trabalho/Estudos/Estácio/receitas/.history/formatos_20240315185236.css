@@ -1,0 +1,127 @@
+:root {
+    --cor-primaria: #ff7f50;
+    --cor-secundaria: #333;
+    --cor-terciaria: #000;
+    --cor-hover: #fff;
+    --font-primaria: "Arial, Helvetica", sans-serif;
+    --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navlist {
+    background-color:var(--cor-secundaria) /* Cor de fundo da lista */
+    padding: 10px 10px 10px; /
+    color: var(--cor-hover);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.navlist li {
+    display: inline;
+    margin-right: 20px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--font-primaria);
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.navlist li a {
+    color:var(--cor-hover); /* Cor do texto dentro dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.receitas__tia__jurema {
+    width: 80px;
+    font-size: 2em;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: contents;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.apresentacao {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.apresentacao h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color: var(--cor-primaria);
+    z-index: 1000;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    border-color: var(--cor-hover);
+    color: var(--cor-hover);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    border-bottom: var(--cor-hover);
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    max-width: 100%;
+}

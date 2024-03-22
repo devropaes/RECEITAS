@@ -1,0 +1,125 @@
+:root {
+    --cor-primaria: #ff7f50;
+    --cor-cabecalho: #2F3D40;
+    --cor-secundaria: #333;
+    --cor-terciaria: #000;
+    --cor-hover: #fff;
+    --cor-apagada:#ced4da;  
+    --font-primaria: "Arial, Helvetica", sans-serif;
+    --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.navlist {
+
+    background-color: var(--cor-secundaria); /* Cor de fundo da lista */
+    padding: 5px; /* Adicionado */
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    max-width: 100%;
+  
+}
+.navlist li {
+   
+    margin-right: 10px;
+   
+}
+
+.navlist a {
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--cor-apagada);
+}
+.navlist li a {
+    color: var(--cor-hover); /* Cor do texto dentro dos links */
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.receitas__tia__jurema {
+    width: 80px;
+    font-size: 2em;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: contents;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.apresentacao {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.apresentacao h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color:var(--cor-cabecalho);
+    z-index: 1000;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    border-color: var(--cor-hover);
+    color: var(--cor-hover);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    border-bottom: var(--cor-hover);
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    max-width: 100%;
+    line-height: 10px;
+}

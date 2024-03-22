@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="formatos.css">
+   
+<style>
+        .navlist {
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <nav>
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="cadastro.html"class="pagina-atual">Cadastro</a></li>
+                </ul>
+                
+                
+            </nav>
+        </header>
+    </body>            
+
+        <main class="container-fluid">
+            <!-- Área Principal - Título e Formulário de Cadastro -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="mt-4 text-left">Efetue seu Cadastro</h1>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="nome" class="float-left">Nome</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="email" class="float-left">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="rua" class="float-left">Rua</label>
+                                <input type="text" class="form-control" id="rua" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="numero" class="float-left">Número</label>
+                                <input type="text" class="form-control" id="numero" required>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="complemento" class="float-left">Complemento</label>
+                                <input type="text" class="form-control" id="complemento">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="cidade" class="float-left">Cidade</label>
+                                <input type="text" class="form-control" id="cidade" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="estado" class="float-left">Estado</label>
+                                    <select id="estado" class="form-control" required>
+                                    <option selected>Escolher...</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label for="cep" class="float-left">CEP</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control mr-3" id="cep" required>
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-primary mr-3">Cadastrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>            
+        </main>
+                               
+
+        <footer class="rodape">
+          <p>&copy;Jurema 2024 </p> 
+     </footer>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Aplica o Select2 ao campo de seleção de estados
+        $('#estado').select2({
+            placeholder: 'Escolher...',
+            allowClear: true, // Permite a limpeza da seleção
+        });
+    });
+</script>
+
+</body>
+</html>

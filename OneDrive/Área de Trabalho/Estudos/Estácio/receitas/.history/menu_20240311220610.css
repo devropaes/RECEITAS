@@ -1,0 +1,10 @@
+img {
+    width: 70px;
+    background-color: #ff7f50;
+}
+
+img, h1 {
+    display:inline-block
+   
+    
+}

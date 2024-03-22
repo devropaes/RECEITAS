@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria:#ff7f50;
+    --cor-secundaria:#333;
+    --cor-terciaria:#000;
+    --cor-hover:#fff;
+
+    --font-primaria:var("Krona One",sans-serif);
+    --font-secundaria:var("Montserrat",sans-serif);
+
+}
+
+*{
+    marging: 0;
+    padding: 0;
+}
+
+img {
+    width: 70px;
+    background-color: var(--cor-primaria);
+    box-sizing: border-box;
+    
+}
+.navlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-secundaria) 
+
+}
+  
+.navlist li {
+    margin: 0;
+  }
+  
+  .navlist a {
+    text-decoration: none;
+    color: var(--cor-secundaria) /* Adicione a cor desejada para os links */
+  }
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    text-decoration: none;
+    text-justify: center;
+   
+}
+    
+header {
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color:var(--cor-primaria);
+    font-family:var(--font-primaria) ;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabecalho__menu {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+  
+}
+
+
+.cabecalho__menu__link {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+    
+}
+.cabecalho__cadastro__link {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+}
+
+
+.apresentacao {
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    background-color:var(--cor-primaria);
+    text-align: center;
+    padding: 300px;
+    max-width: 1200px;
+}
+
+.apresentacao__conteudo {
+    img: 33 x 32px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+    pad: 60px;
+}
+
+.apresentacao__conteudo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    pad:62px;
+    
+}
+.apresentacao__conteudo__titulo {
+    justify-items:right;
+    width: 60%;
+
+}
+
+
+.apresentacao__receitas__link {
+    align-items: center;
+    display:flex;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+        
+}
+
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-hover);
+    text-align: center;
+    padding: 8px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: fixed;
+    border-bottom: var(--cor-hover);
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0%;
+    border-bottom:  #fff;
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+   
+}

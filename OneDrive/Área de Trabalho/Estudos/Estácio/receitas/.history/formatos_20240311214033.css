@@ -1,0 +1,143 @@
+
+img {
+    width: 70px;
+    background-color: #ff7f50;
+}
+
+img, h1 {
+    display:inline-block
+    
+}
+
+.navlist{
+
+ d-flex 
+ justify-content:display: flex;
+}
+body {
+    background-color:#ff7f50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  
+      
+}
+header {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    border-bottom: #fff;
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0%;
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+
+}
+
+.cabecalho{
+    background-color: #ff7f50;
+    font-family:"krona one",sans-serif ;
+    font-weight: 600;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cabecalho__menu {
+    background-color: #ff7f50;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    color:#333;
+    text-decoration: none;
+  
+}
+
+
+.cabecalho__menu__link {
+    background-color: #ff7f50;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+    
+}
+.cabecalho__cadastro__link {
+    background-color: #ff7f50;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    pad: 50px;
+}
+
+
+.apresentacao {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 50px;
+}
+
+.apresentacao__conteudo {
+    img: 33 x 32px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+    pad: 60px;
+}
+
+.apresentacao__conteudo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    color: #333;
+    pad:62px;
+    
+}
+.apresentacao__conteudo__titulo {
+    justify-items:right;
+    width: 60%;
+
+}
+
+
+.apresentacao__receitas__link {
+    align-items: center;
+    display:flex;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+        
+}
+
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    border-bottom: #fff;
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0%;
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+   
+}
+

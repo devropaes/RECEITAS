@@ -1,0 +1,108 @@
+
+:root {
+  --cor-primaria: #ff7f50;
+  --cor-secundaria: #333;
+  --cor-terciaria: #000;
+  --cor-hover: #fff;
+  --font-primaria: "Arial, Helvetica", sans-serif;
+  --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: auto;
+  background-color: var(--cor-primaria);
+  font-family: var(--font-secundaria);
+  font-size: 1em;
+  font-weight: 600;
+  text-align:left;
+  margin: 5px;
+}
+
+.navbar {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-hover);
+}
+
+header {
+  height: 60px;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-hover);
+}
+
+nav a {
+  color: #fff; /* Alterada a cor dos itens do menu na barra de navegação */
+}
+
+nav a:hover {
+  color: #ccc; /* Alterada a cor dos itens do menu ao passar o mouse */
+}
+
+main {
+  height: calc(100vh - 100px);
+  padding: 25px;
+}
+
+footer {
+  height: 25px;
+  background-color: var(--cor-hover);
+  color: var(--cor-secundaria);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.navlist {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-hover);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Alterado de justify-content-between para space-around */
+}
+
+.navlist li {
+  margin: 0;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: var(--cor-hover);
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+}
+
+.navlist a:hover {
+  color: var(--cor-terciaria);
+}
+
+.apresentacao {
+  font-family:var(--font-secundaria);
+  font-weight: 600;
+  background-color:var(--cor-primaria);
+  text-align: center;
+  padding: 50px;
+}
+
+.btn-primary {
+  color: var(--cor-hover);
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+}
+.rodape {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-hover);
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  border-bottom: var(--cor-hover);
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  margin: 0%;
+  max-width: 100%;
+}

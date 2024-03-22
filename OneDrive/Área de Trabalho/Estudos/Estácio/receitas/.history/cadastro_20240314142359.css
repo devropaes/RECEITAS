@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-primaria: #ff7f50;
+  --cor-secundaria: #333;
+  --cor-terciaria: #000;
+  --cor-hover: #fff;
+  --font-primaria: "Arial, Helvetica", sans-serif;
+  --font-secundaria: "Krona-One", sans-serif;
+}
+
+body {
+  overflow-y: auto;
+  background-color: var(--cor-primaria);
+  font-family: var(--font-secundaria);
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+  margin: 5px;
+  padding: 20px; /* Adicionado espaçamento interno ao corpo */
+}
+
+
+
+header {
+  height: 60px;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-hover);
+}
+
+main {
+  height: calc(100vh - 100px);
+  padding: 25px;
+}
+
+footer {
+  height: 25px;
+  background-color: var(--cor-hover);
+  color: var(--cor-secundaria);
+  text-align: center;
+  padding-top: 5px;
+}
+
+.navlist {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-hover);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.navlist li {
+  display: flex;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: var(--cor-hover);
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+}
+
+.navlist a:hover {
+  color: var(--cor-secundaria);
+}
+
+/* Adicione essas regras CSS ao seu arquivo cadastro.css */
+
+/* Estilização para o layout do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* Estilo personalizado para o Select2 */
+.select2-container--default .select2-selection--single {
+  height: 38px;
+  padding: 8px 12px;
+  border: 1px solid #ced4da; /* Corrigido */
+  border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 8px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 22px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #555 transparent transparent transparent;
+}
+
+#filtroEstado {
+  margin-bottom: 5px;
+}
+
+.apresentacao {
+  font-family: var(--font-secundaria);
+  font-weight: 600;
+  background-color: var(--cor-primaria);
+  text-align: center;
+  padding: 50px;
+}
+
+.btn-primary {
+  color: var(--cor-hover);
+  background-color: var(--cor-secundaria);
+  border-color: var(--cor-secundaria);
+  width: 100%; /* Adicionado */
+  height: 38px; /* Adicionado */
+}
+
+.rodape {
+  background-color: var(--cor-terciaria);
+  border-color: var(--cor-hover);
+  color: var(--cor-hover);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  border-bottom: var(--cor-hover);
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+  margin: 0%;
+  max-width: 100%;
+}

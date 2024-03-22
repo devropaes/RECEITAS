@@ -1,0 +1,103 @@
+
+:root {
+  --cor-primaria: #ff7f50;
+  --cor-secundaria: #333;
+  --cor-terciaria: #000;
+  --cor-hover: #fff;
+  --font-primaria: "Arial, Helvetica", sans-serif;
+  --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color:var(--cor-terciaria);
+  color:var(--cor-hover);
+
+}
+
+body {
+  overflow-y: auto;
+}
+
+header {
+  height: 60px;
+  background-color:var(--cor-secundaria);
+  color: var(--cor-hover);
+}
+
+main {
+  height: calc(100vh - 100px);
+  padding: 25px;
+}
+
+footer {
+  height: 25px;
+  background-color:var(--cor-hover);
+  color:var(--cor-secundaria);
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* Adicione barras de rolagem ao corpo */
+body {
+  overflow-y: auto;
+}
+
+
+.navlist {
+    background-color:var(--cor-terciaria);
+    color:var(--cor-hover);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Alterado de justify-content-between para space-between */
+  }
+  
+  .navlist li {
+    margin: 0;
+  }
+  
+  .navlist a {
+    text-decoration: none;
+    
+    color:var(--cor-hover);
+  }
+
+  body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-secundaria);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+}
+    
+header {
+    text-decoration: none;
+}
+
+.apresentacao {
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 50px;
+}
+.rodape {
+    background-color:var(--cor-terciaria);
+    color:var(--cor-hover);
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    border-bottom:var(--cor-hover);
+    left: 0; /* Alteração aqui para fixar o rodapé no lado esquerdo */
+    bottom: 0%;
+    width: 100%;
+    margin: 0%;
+    max-width: 100%;
+   
+}

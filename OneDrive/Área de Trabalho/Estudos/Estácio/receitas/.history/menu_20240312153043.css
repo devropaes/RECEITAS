@@ -1,0 +1,99 @@
+
+
+:root {
+    --cor-primaria: #ff7f50;
+    --cor-secundaria: #333;
+    --cor-terciaria: #000;
+    --cor-hover: #fff;
+    --font-primaria: "Arial, Helvetica", sans-serif;
+    --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: var(--font-secundaria);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-primaria);
+   
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 10px; 
+}
+
+.receitas__tia__jurema {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.apresentacao {
+    font-size: 1.25em;
+    text-align:inherit;
+    padding: 50px;
+    width: 50%; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+/* Adicione esta regra para alinhar o logo à esquerda da Receitas Tia Jurema */
+..content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 350px; /* Ajuste conforme necessário */
+    align-items: end;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-hover);
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    border-bottom: var(--cor-hover);
+    left: 0; 
+    bottom: 0%;
+    width: 100%;
+    max-width: 100%;
+}
+

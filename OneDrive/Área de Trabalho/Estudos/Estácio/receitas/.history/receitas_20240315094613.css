@@ -1,0 +1,83 @@
+:root {
+    --cor-primaria: #ff7f50;
+    --cor-secundaria: #333;
+    --cor-secundaria2:#
+    --cor-terciaria: #000;
+    --cor-hover: #fff;
+    --font-primaria: "Arial, Helvetica", sans-serif;
+    --font-secundaria: "Krona-One", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.apresentacao__receitas__link {
+    display:contents;
+    width: 100px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center:
+
+}
+
+.navlist li {
+    display: flex;
+    margin: 30px;
+}
+.navlist a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--font-primaria);
+    font-size: 1.5em;
+    font-weight: normal; /* ou outro valor adequado */
+    margin: 0;
+    padding: 0;
+}
+
+.receitas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:space-around;
+}
+
+.receita {
+    background-color:var(--cor-hover);
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.receita img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.receita h2 {
+    color:var(--cor-secundaria);
+}
+
+.receita h3 {
+    color:var(--cor-secundaria);
+}
+
+.receita ul {
+    list-style: none;
+    padding: 0;
+}
+
+.receita p {
+    color:var(--cor-secundaria);
+}
+
+
+
+
+
+
