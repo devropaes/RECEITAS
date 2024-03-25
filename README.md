@@ -25,10 +25,10 @@ Computador com acesso à internet;
   <img src="https://github.com/devropaes/numeroSecreto/assets/143963091/31da45d2-84c2-4909-ac58-9ec01044f9f7"width="85"px/>
 </div>
 
-Click [aqui]( https://devropaes.github.io/site1/)
+🔗 Click [aqui]( https://devropaes.github.io/site1/)
 
 
-Assista ao vídeo de demonstração no [YouTube](https://youtu.be/lUlshnpz5VM?si=KvdHYHl-ZuxHjLTe)
+🎯 Assista ao vídeo de demonstração no [YouTube](https://youtu.be/lUlshnpz5VM?si=KvdHYHl-ZuxHjLTe)
 
    ![200402_109498305798233_5479569_n](https://github.com/devropaes/numeroSecreto/assets/143963091/bab695fe-3d03-4930-9ac4-efd7d5193f4c) 
 
